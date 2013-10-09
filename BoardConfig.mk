@@ -40,7 +40,7 @@ TARGET_PREBUILT_KERNEL := device/htc/k2cl/prebuilt/kernel
 TARGET_KERNEL_CONFIG := k2_cl_defconfig
 
 # Use libril in the device tree
-BOARD_PROVIDES_LIBRIL := true
+# BOARD_PROVIDES_LIBRIL := true
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 800
